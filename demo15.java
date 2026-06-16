@@ -30,9 +30,6 @@ public class demo15 {
             num2 = scanner.nextInt();
         }
 
-        // =================================================================
-        // 2. SWITCH CASE
-        // =================================================================
         switch (choice) {
             case 1:
                 if (isPrime(num1)) {
@@ -74,11 +71,7 @@ public class demo15 {
         scanner.close();
     }
 
-    // =================================================================
-    // 3. FUNCTION METHODS
-    // =================================================================
 
-    // Function to check if a number is Prime
     public static boolean isPrime(int num) {
         if (num <= 1) return false;
         for (int i = 2; i <= Math.sqrt(num); i++) {
