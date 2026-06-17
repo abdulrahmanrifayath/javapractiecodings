@@ -5,6 +5,9 @@ public class demo18{
 
         Scanner sc = new Scanner(System.in);
         String value = sc.nextLine();
-        
+        for (int i=0; i<value.length(); i++){
+            char ch = value.charAt(i);
+            
+        }
     }
 }
