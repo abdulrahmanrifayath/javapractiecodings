@@ -13,4 +13,8 @@ public class demo25{
             arr[min] = temp;
         }
     }
+    public static void main(String[] args){{
+        int size = sc.nextInt();
+        int[] a = new int[size]
+    }}
 }
